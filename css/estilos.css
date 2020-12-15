@@ -8,6 +8,7 @@ body{
 .fondo{
     height: 580px;
     background-color:hsl(185, 75%, 39%);
+    overflow: hidden;
 }
 
 .imgTop{
@@ -21,7 +22,7 @@ body{
     position: relative;
     bottom: 540px;
     left: 180px;
-    width: 160%; 
+    width: 160%;
 }
 
 /* Contenedor principal de la tarjeta */
