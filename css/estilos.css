@@ -1,0 +1,99 @@
+body{
+    padding: 0;
+    margin: 0; 
+    font-family: "Kumbh Sans", sans-serif; 
+}
+
+/* fondo y burbujas */
+.fondo{
+    height: 580px;
+    background-color:hsl(185, 75%, 39%);
+}
+
+.imgTop{
+    position: relative;
+    top: -600px;
+    right: 280px;
+    width: 120%;
+}
+
+.imgBottom{
+    position: relative;
+    bottom: 540px;
+    left: 180px;
+    width: 160%; 
+}
+
+/* Contenedor principal de la tarjeta */
+.contenedor{
+    display: grid;
+    grid-template-rows: 140px 0px 145px 88px;
+    position: relative;
+    top: 18%;
+    width: 326px;
+    border-radius: 13px;
+    background-color: #ffffff;
+    margin: auto;
+    z-index: 40;
+}
+
+.top{
+    width: 326px;
+    height: 140px;
+    border-radius: 13px 13px 0px 0px;
+}
+
+.photo{
+    position: relative;
+    bottom: 58px;
+    margin: auto;
+    border: 5px solid #ffffff;
+    border-radius: 50%;
+}
+
+.cardContent{
+    display: grid;
+    grid-template-rows: 91px 54px;
+    /*justify-content: center;*/
+    align-items: center;
+}
+
+.nombre{
+    padding-top: 70px;
+    text-align: center;
+}
+
+.edad{
+    color:hsl(0, 0%, 59%);
+    font-size: 18px;
+    font-weight: 400;
+    margin-left: 8px;
+}
+
+.estado{
+    font-size: 15px;
+    color: hsl(0, 0%, 59%);
+    text-align: center;
+    padding-bottom: 17px;
+    border-bottom: 1px solid hsla(0, 0%, 59%, 0.404);
+}
+
+.pieCard{
+    display: grid;
+    grid-template-rows: 45px 1fr;
+}
+
+.numeros{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; 
+    text-align: center;
+}
+
+.descripcion{
+    font-size: 10px;
+    letter-spacing: 1px;
+    color: hsl(0, 0%, 59%);
+    align-items: baseline;
+}
+
+
